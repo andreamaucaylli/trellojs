@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Trello</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gidugu">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="tableros pull-left m-right5">Tableros</div>
+                <input class="pull-left buscador" type="text"/>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+               <div class="nombre pull-right">Andrea Maucaylli</div>
+               <span class="icono-plus pull-right glyphicon glyphicon-plus m-right5"></span>
+                
+            </div>
+        </div>
+    </header>
+    <div id="contenedor">
+        <section class="d-inlineblock">
+            <div id="agregarForm" class="lista b-radius">Añadir una lista</div>
+            <form id="nuevoForm" class="d-none formulario">
+                <input class="entrada" type="text" id="input" placeholder="Nombre de lista"><br>
+                <button class="boton" type="submit" id="button">Guardar</button>
+            </form>
+        </section>
+     </div>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+body{
+    background-color: #0079BF;
+    box-sizing: border-box;
+}
+
+.d-inlineblock {
+    display: inline-block;
+}
+
+.d-none{
+    display: none;
+}
+
+.m-right5{
+    margin-right: 0.5em;
+}
+
+
+header{
+    width: 100%;   
+    background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    position: fixed;
+    background-color: #0067A3;
+    height: 4em;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0.4em;
+}
+
+.nombre{
+    margin-top: 0.6em;
+    background-color: #569BC4;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+}
+
+.buscador{
+    margin-top: 0.6em;
+    background-color: #569BC4;
+    opacity: 0.8;
+    padding: 0.3em 0.5em;
+    border-radius: 5px;
+    border: none;
+}
+
+.icono-plus{
+    margin-top: 0.6em;
+    background-color: #569BC4;
+    padding: 0.5em 0.5em;
+    border-radius: 5px;
+}
+
+.tableros{
+    margin-top: 0.6em;
+    background-color: #569BC4;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+}
+
+/*----------Contenedor--------------*/
+#contenedor{
+    white-space: nowrap;
+    padding-top: 3.5em;
+
+}
+/*---formato de div para agregar---*/
+
+.lista {
+    width: 17em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: #0067A3;
+    padding: 0.6em;
+    color: white;
+    border-radius: 5px;
+}
+
+.nuevaLista{
+    width: 15em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: #E2E4E6;
+    padding: 0.5em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.agregar {
+    width: 15em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: #E2E4E6;
+    padding: 0.6em;
+    border-radius: 5px;
+    color: gray;
+}
+
+.agregar:hover{
+    background-color: lightgray;
+}
+.text-tarjetas {
+    width: 15em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: white;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+.transicion{
+   transition: all 0.7s ease;
+   transform:scale(1.04);
+}
+
+.receptor{
+    width: 15em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: gray;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+.opacidad{
+    background-color: grey;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*---Trellos body---*/
+
+.trello-body{
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 17em;
+    background-color: #E2E4E6;
+    vertical-align: top;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.agrandar{
+    height: 
+}
+
+.bg-blue{
+    background-color: #0067A3;
+}
+
+/*---formulario---*/
+.formulario {
+    width: 17em;
+    height: auto;
+    margin: 0.6em 0.5em;
+    padding: 0.3em;
+    background-color: #E2E4E6;
+    border-radius: 5px;
+}
+.entrada {
+    width: 94%;
+    margin: 0.3em 0.7em;
+    padding: 0.3em;
+    border-radius: 5px;
+    border: none;
+}
+
+.boton {
+    display: block;
+    padding: 0.5em 3em;
+    margin: 0.3em 0.7em;
+    background-color: #5BAE45;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.textarea{
+    width: 92%;
+    margin: 0.3em 0.7em;
+    padding: 0.3em;
+    border-radius: 5px;
+}
+
+/*---responsive---*/
+
+@media (max-width: 1024px){
+    
+}
+@media (max-width: 982px){
+
+}
+@media (max-width: 768px){
+    .nombre{
+        display: none;
+    }
+    .buscador{
+        display: none;
+    }
+    .tableros{
+        display: none;
+    }
+}
+
+@media (max-width: 640px){
+
+}
